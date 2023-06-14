@@ -3,7 +3,8 @@ const { gulp, src, dest, parallel, series, watch } = pkg
 
 import browserSync   from 'browser-sync'
 import gulpSass      from 'gulp-sass'
-import dartSass      from 'sass'
+// import dartSass      from 'sass'
+import * as dartSass from 'sass';
 import postCss       from 'gulp-postcss'
 import cssnano       from 'cssnano'
 const  sassfn        = gulpSass(dartSass)
